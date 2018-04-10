@@ -28,7 +28,7 @@ Hahcy uses machine learning to candle eggs with a <b>phone</b> and a <b>Hachy Bo
 Hachy-android candles your egg using an app and a cardbox
 
 ## Concept
-With the rise of Machine Learning and Image Recognition technologies, the market has seen useful agricultural tools such as [Banna Freshness Analyzer][bananaAnalyize], a [Cucumber Sorter][cucumberSorter] and so on. However, there lacks a tool for egg farmers and consumers for <b>smart egg checking</b>. 
+With the rise of Machine Learning and Image Recognition technologies, the market has seen useful agricultural tools such as [Banna Freshness Analyzer][bananaAnalyize], a [Cucumber Sorter][cucumberSorter] and so on. However, there lacks a tool for egg farmers and consumers for **smart egg checking**. 
 
 
 ### Audience
@@ -36,10 +36,9 @@ In fact, 400 billion eggs being produced in China and 100 billion in USA annuall
 
 In addition, many farmers' market shopper who routinely shop for fresh organic eggs often find it a hassle to pick eggs and candle them one by one.
 
-#### [Cath] lives in rural Italy and raised 23 hens when she got started, she had to invest weeks of learning before becoming an expert at checking egg development status. Using Hachy, Cath will get status of her eggs by simply scanning eggs in the Hachy Box, so that she would not need to manually fetch eggs, candle and analyze development mannually.
+**[Cath]** lives in rural Italy and raised 23 hens when she got started, she had to invest weeks of learning before becoming an expert at checking egg development status. Using Hachy, Cath will get status of her eggs by simply scanning eggs in the Hachy Box, so that she would not need to manually fetch eggs, candle and analyze development mannually.
 
-##### Wancai (Youtube Video) 
-Wancai lives in PingTung, Taiwan. He is a organic egg shoper at PingTung’s local farmers market. He has been selecting his eggs for the best quality for breakfast every morning. Hachy will help him get the best quality eggs in the shortest time when he shops for eggs.
+**[Wancai]** lives in PingTung, Taiwan. He is a organic egg shoper at PingTung’s local farmers market. He has been selecting his eggs for the best quality for breakfast every morning. Hachy will help him get the best quality eggs in the shortest time when he shops for eggs.
 
 
 ### Vision
@@ -125,8 +124,11 @@ The datasets of which this modal is trained labeled in 4 different tags:
 ## AUTHOR and LICENSE
 Copyright (c) 2016 Eugene Wang [The MIT License (MIT)](LICENSE)
 
+
 [comment]: # (Reference of images and links)
 [userImage]:screenshots/banner.png
 [bananaAnalyize]: https://www.ncbi.nlm.nih.gov/pubmed/25745200
 [cucumberSorter]: https://persol-tech-s.co.jp/i-engineer/product/cucumber
 [usaeggproduction]: https://www.statista.com/statistics/196096/total-egg-production-in-the-us-since-2000/
+[Cath]: https://www.youtube.com/channel/UCCGhip1gdKPcq0g1rTKBlwQ
+[Wancai]: https://www.youtube.com/watch?v=-wZeUUgJdUM
