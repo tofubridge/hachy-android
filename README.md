@@ -24,8 +24,6 @@ Hahcy uses machine learning to candle eggs with a <b>phone</b> and a <b>Hachy Bo
 	* [Dependencies](#dependencies)
 	* [Author and License](#author-and-license)
 
-Hachy-android candles your egg using an app and a cardbox
-
 ## Concept
 With the rise of Machine Learning and Image Recognition technologies, the market has seen useful agricultural tools such as [Banna Freshness Analyzer][bananaAnalyize], a [Cucumber Sorter][cucumberSorter] and so on. However, there lacks a tool for egg farmers and consumers for **smart egg checking**. 
 
@@ -63,7 +61,9 @@ However, this project is fundamentally different from those in that it uses mach
 ### Hachy Box Setup
 	
 1. Purchase or make a cardbox of the following specs: 
-![boxdesign](https://user-images.githubusercontent.com/7799433/38463598-7d6136e0-3acc-11e8-8c3c-4e20f85eb677.png)
+![boxdesign][bpxSetup](screenshots/boxsetup.png)
+Finished setup looks like this: 
+![screenshot][banner]
 
 ### Install Android App
 #### Option 1: Clone this repo and build it yourself
@@ -107,17 +107,22 @@ As the phone is being mounted on the cardboard, it is a little hard to track egg
 ![screenshot](https://user-images.githubusercontent.com/7799433/38462289-84e70c60-3ab2-11e8-9587-d5706807c0a2.png)
 
 
-
 ## Architecture
 ![screenshot][img-architecture]
 
 ### How it Works
 As you have learned previously, Hachy is composed of 6 parts: Hachy Box, App, WebClient, Server, Database, and CustomVision.ai
+
 **HachyBox** is the cardbox that is used to host the egg and mount the Phone. 
+
 **App**, currently built in Kotlin-Android, is what the user uses to take picture of egg or upload picture of egg that is sent as request to the server as request for analysis. It also produce a catalogue of eggs to display the users from the history data recieved from the server.
+
 **Web Client**, built in Angular2, stored on github, deployed to Azure through github continuous intergration, deliever data to and from user the same way as the mobile app does on web.
+
 **Server** is built in NodeJs as a that recieves the request from app/web client process request: send to azure image for analysis or pull catalogue, then return the data to the app/web client.
+
 **Database** is currently powered by Firebase to store logs and photos, connection to the database are based on rest contracts so that it could be swapped for any other database as it deem suitable.
+
 **CustomVision.ai** powered by Azure is the core engine of this app, it is trained using images of different stages of egg development. CustomVision recieves requests and images and analyze egg stages and send back to the server
 
 
@@ -143,3 +148,4 @@ Copyright (c) 2016 Eugene Wang [The MIT License (MIT)](LICENSE)
 [Cath]: https://www.youtube.com/channel/UCCGhip1gdKPcq0g1rTKBlwQ
 [Wancai]: https://www.youtube.com/watch?v=-wZeUUgJdUM
 [img-architecture]: screenshots/img-architecture.png
+[bpxSetup]: screenshots/boxsetup.png
