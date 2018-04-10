@@ -92,4 +92,4 @@ The datasets of which this modal is trained labeled in 4 different tags:
 Copyright (c) 2016 Eugene Wang [The MIT License (MIT)](LICENSE)
 
 [comment]: # (Reference of images and links)
-[userImage]:https://user-images.githubusercontent.com/7799433/38462289-84e70c60-3ab2-11e8-9587-d5706807c0a2.png
+[userImage]:screenshots/banner.png
