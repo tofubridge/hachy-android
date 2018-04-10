@@ -36,12 +36,10 @@ In fact, 400 billion eggs being produced in China and 100 billion in USA annuall
 
 In addition, many farmers' market shopper who routinely shop for fresh organic eggs often find it a hassle to pick eggs and candle them one by one.
 
-#### Personas
-##### Cath (Youtube)
-lives in Rural Italy and has raised 23 hens when she started with the raise hens, she had to go through a long journey to understand the egg development. In fact, she created a YouTube channel to teach the egg candling. Hachy Will help people like Cath to save time on candling egg track egg development so that they would not need to manually take an egg out from the nest, adjust angles and go through all the trouble to identify very subtle details on the egg.  
+#### [Cath] lives in rural Italy and raised 23 hens when she got started, she had to invest weeks of learning before becoming an expert at checking egg development status. Using Hachy, Cath will get status of her eggs by simply scanning eggs in the Hachy Box, so that she would not need to manually fetch eggs, candle and analyze development mannually.
 
 ##### Wancai (Youtube Video) 
-Wancai lives in PingTung, Taiwan. He is a organic egg shoper at PingTung’s local farmers market. He has been selecting his eggs for the best quality for
+Wancai lives in PingTung, Taiwan. He is a organic egg shoper at PingTung’s local farmers market. He has been selecting his eggs for the best quality for breakfast every morning. Hachy will help him get the best quality eggs in the shortest time when he shops for eggs.
 
 
 ### Vision
