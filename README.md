@@ -31,7 +31,7 @@ Hachy-android candles your egg using an app and a cardbox
 With the rise of Machine Learning and Image Recognition technologies, the market has seen useful agricultural tools such as [Banna Freshness Analyzer][bananaAnalyize], a [Cucumber Sorter][cucumberSorter] and so on. However, there lacks a tool for egg farmers and consumers for **smart egg checking**. 
 
 
-## Audience
+### Audience
 In fact, 400 billion eggs being produced in China and 100 billion in USA annually. On average each farmer spend 243 minues weekly to care for the eggs, and of these time 1/10 to 1/4 of the time are spent on checking the status of the egg development depending on how often they check. Some farmers check as little as 2 times, other check as often as daily until egg hatches. From our experiment we found that an egg would take 40 seconds for candling whereas Hachy reduces the time to 5s. 
 
 **[Cath]** lives in rural Italy and raised 23 hens when she got started, she had to invest weeks of learning before becoming an expert at checking egg development status. Using Hachy, Cath will get status of her eggs by simply scanning eggs in the Hachy Box, so that she would not need to manually fetch eggs, candle and analyze development mannually.
@@ -39,10 +39,10 @@ In fact, 400 billion eggs being produced in China and 100 billion in USA annuall
 On the demand side of the market, many shoppers at farmers' market who routinely shop for fresh organic eggs often find it a hassle to pick eggs and candle them one by one. **[Wancai]** lives in PingTung, Taiwan. He is a organic egg shoper at PingTung’s local farmers market. He has been selecting his eggs for the best quality for breakfast every morning. Hachy will help him get the best quality eggs in the shortest time when he shops for eggs.
 
 
-## Vision
+### Vision
 The vision of our team is building an autonomous egg incubating tool that allows no human involvement in the incubating, candling and hatching of eggs. Hachy is considered as the first stage that enables autonomous egg development identification and tracking. 
 
-## Mission
+### Mission
 Therefore, Hachy aims to:
 •	reduce the skills requirement for consumers to shop egg by providing a easy way to identify the development status of the egg.
 •	Reduce the time for homestead farmers who raise egg themselves. 
@@ -51,22 +51,20 @@ By:
 •	Use Web & Mobile service to store data on the cloud such that the egg stats is readily avaliable whenever the user need them.
 
 
-## Business Modal
+### Business Modal
 The eventual business modal will be a consumer oriented subscription program:, it will require the user to pay a small amount of fee: predetermined to be 50$ annually or 10$ monthly the first 2 weeks will be offered as free trial.
 However, a more imminent approach would be modeling it as a research tool and provide it to universities: in fact, I have a few students from Xinjiang Agricultural university working with me on this project and received the guidance from South China Agricultural university. So, a second option is providing it as a research tool to universities, as of writing this project proposal I am seeking cooperation from faculty members and students at the University of Toronto. 
 
-## competition: 
+### competition: 
 Currently, there are a variety of egg candling lamp in the market ranging from 10 dollars to 50 for a cheap one such as Magicfly Bright Cool LED Light Egg Candler Tester - Incubator Warehouse Exclusive which cost 18$ or even more fancy ones such as Egg Or-Candle which would cost much more. 
 
 However, this project is fundamentally different from those in that it uses machine learning to generate the egg candled result rather than still requiring a human to identify the result. It eliminate the last human factor in the chain. In addition, since Hachy stores egg information on the cloud, the egg development stats can be integrated with existing farmers’ digital system to enable autonomous egg caring farm.
 
 
-
-
-
 ## Architecture
 ### How it Works
 ### Azure Usage
+The technology used here are Azure Web/Mobile Service and Custom Vision. Web/mobile service is used to host an angular/node app which host the web client that display egg catalogue, and handle request being sent from the mobile. The custom view service is used to train image recognition logistics with given datasets on egg development on 3 stages: early, middle, mature.
 ### Egg Development Data Selection
 
 1. Purchase or make a cardbox of the following specs: 
