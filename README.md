@@ -1,11 +1,59 @@
 # Hachy-android
+Hahcy is a app that uses machine learning to candle eggs with a phone in a Hachy box:
+![screenshot][userImage]
+
+
+## Table of Content
+* Introduction
+	* Concept
+	* Egg Embrology
+	* Dataset selection
+* Operation
+	* Target Audience
+	* Business Plan
+	* Marketing Plan
+	* Cooperation
+* Architecture 
+	* How it works
+	* Azure Usage
+* Project Demo
+	* Hachy box Setup
+	* Install App
+	* App Demo & Use Procedure
+	* [Web Client Demo & Use Procedure](web-client-demo-&-use-procedure)
+* References
+	* [Libraries](libraries)
+	* [Dependencies](#dependencies)
+	* [Author and License](#author-and-license)
+
 Hachy-android candles your egg using an app and a cardbox
 
-
-## Set up and Use: 
+## Concept
+## Background Information
+## Target Audience
+## Business Plan
+## How it Works (Architecture)
+## Project Setup
 1. Purchase or make a cardbox of the following specs: 
 ![boxdesign](https://user-images.githubusercontent.com/7799433/38463598-7d6136e0-3acc-11e8-8c3c-4e20f85eb677.png)
 
+## install app
+#### option 1: Clone this repo and build it yourself
+`$git clone https://github.com/hachyEgg/hachy-android`
+Open up Android Studio->Open->find this folder->open
+
+#### Option 2: Install apk from project's debug folder
+
+#### Option 3: Download at http://hachy.azurewebsites.net/download
+
+### Requirement:
+ * Android Studio 3.0.0
+ * Android 4.4 KitKat, API Level 19
+ * 1G of allowcated ram
+
+### Permission
+
+## App Demo & Use Procedure
 2. insert the device into the cardbox, A completed set up would look like this:
 (insert image)
 
@@ -26,20 +74,12 @@ Determining Egg in Progress:|  Egg development initiated    |   Found Egg but No
 
 5. Navigate back to observe a catalogue of egg status
 
-## install app
-#### option 1: Clone this repo and build it yourself
-`$git clone https://github.com/hachyEgg/hachy-android`
-Open up Android Studio->Open->find this folder->open
-
-#### Option 2: Install apk from project's debug folder
-
-#### Option 3: Download at http://hachy.azurewebsites.net/download
-
-
 
 ## Web-Client
 As the phone is being mounted on the cardboard, it is a little hard to track egg status, the [Hachy Web Client](https://github.com/hachyEgg/hachy-web-dist) lets you see analysis data in realtime sync with the device remotely. As the phone maybe a little hard to check as it is been mounted.
 ![screenshot](https://user-images.githubusercontent.com/7799433/38462289-84e70c60-3ab2-11e8-9587-d5706807c0a2.png)
+
+## Azure Usage
 
 ## Datasets: 
 The datasets of which this modal is trained labeled in 4 different tags: 
@@ -47,21 +87,9 @@ The datasets of which this modal is trained labeled in 4 different tags:
  * egg_1 for egg with a visible zygote (developing)
  * egg_2 for egg with visible blood lines and other organs (mature)
 
-
-## Demo
-Demo of this application can be found from [TBD]().
-
-
-### Requirement:
- * Android Studio 3.0.0
- * Android 4.4 KitKat, API Level 19
- * 1G of allowcated ram
-
-### Permission
  
-
 ## AUTHOR and LICENSE
 Copyright (c) 2016 Eugene Wang [The MIT License (MIT)](LICENSE)
 
-
-
+[comment]: # (Reference of images and links)
+[userImage]:https://user-images.githubusercontent.com/7799433/38462289-84e70c60-3ab2-11e8-9587-d5706807c0a2.png
