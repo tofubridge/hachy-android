@@ -1,26 +1,23 @@
 # Hachy-android
-Hahcy is a app that uses machine learning to candle eggs with a phone in a Hachy box:
+Hahcy uses machine learning to candle eggs with a <b>phone</b> and a <b>Hachy Box</b>:
 ![screenshot][userImage]
 
 
 ## Table of Content
-* Introduction
-	* Concept
-	* Egg Embrology
-	* Dataset selection
-* Operation
+* [Concept](#concept)
 	* Target Audience
 	* Business Plan
-	* Marketing Plan
 	* Cooperation
-* Architecture 
-	* How it works
-	* Azure Usage
+
 * Project Demo
 	* Hachy box Setup
 	* Install App
 	* App Demo & Use Procedure
 	* [Web Client Demo & Use Procedure](web-client-demo-&-use-procedure)
+* Architecture 
+	* How it works
+	* Azure Usage
+	* Egg Development Data selection
 * References
 	* [Libraries](libraries)
 	* [Dependencies](#dependencies)
@@ -29,11 +26,23 @@ Hahcy is a app that uses machine learning to candle eggs with a phone in a Hachy
 Hachy-android candles your egg using an app and a cardbox
 
 ## Concept
-## Background Information
-## Target Audience
-## Business Plan
-## How it Works (Architecture)
-## Project Setup
+With the rise of Machine Learning and Image Recognition technologies, the market has seen useful agricultural tools such as [Banna Freshness Analyzer][bananaAnalyize], a [Cucumber Sorter][cucumberSorter] and so on. However, there lacks a tool for _____ million egg farmers in USA and ____ in China for egg checking. 
+
+In fact, 
+
+
+The vision of our team is building an autonomous egg incubating tool that allows no human involvement in the incubating, candling and hatching of eggs. Hachy is considered as the first stage that enables autonomous egg development identification and tracking. 
+
+### Target Audience
+### Business Plan
+### Cooperation
+
+
+## Architecture
+### How it Works
+### Azure Usage
+### Egg Development Data Selection
+
 1. Purchase or make a cardbox of the following specs: 
 ![boxdesign](https://user-images.githubusercontent.com/7799433/38463598-7d6136e0-3acc-11e8-8c3c-4e20f85eb677.png)
 
@@ -93,3 +102,5 @@ Copyright (c) 2016 Eugene Wang [The MIT License (MIT)](LICENSE)
 
 [comment]: # (Reference of images and links)
 [userImage]:screenshots/banner.png
+[bananaAnalyize]: https://www.ncbi.nlm.nih.gov/pubmed/25745200
+[cucumberSorter]: https://persol-tech-s.co.jp/i-engineer/product/cucumber
