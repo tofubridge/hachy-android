@@ -5,8 +5,10 @@ Hahcy uses machine learning to candle eggs with a <b>phone</b> and a <b>Hachy Bo
 
 ## Table of Content
 * [Concept](#concept)
-	* Target Audience
-	* Business Plan
+	* Audience
+	* Vision
+	* Mission
+	* Business Modal	
 	* Cooperation
 
 * Project Demo
@@ -26,12 +28,37 @@ Hahcy uses machine learning to candle eggs with a <b>phone</b> and a <b>Hachy Bo
 Hachy-android candles your egg using an app and a cardbox
 
 ## Concept
-With the rise of Machine Learning and Image Recognition technologies, the market has seen useful agricultural tools such as [Banna Freshness Analyzer][bananaAnalyize], a [Cucumber Sorter][cucumberSorter] and so on. However, there lacks a tool for _____ million egg farmers in USA and ____ in China for egg checking. 
-
-In fact, 
+With the rise of Machine Learning and Image Recognition technologies, the market has seen useful agricultural tools such as [Banna Freshness Analyzer][bananaAnalyize], a [Cucumber Sorter][cucumberSorter] and so on. However, there lacks a tool for egg farmers and consumers for <b>smart egg checking</b>. 
 
 
+### Audience
+In fact, 400 billion eggs being produced in China and 100 billion in USA annually. On average each farmer spend 243 minues weekly to care for the eggs, and of these time 1/10 to 1/4 of the time are spent on checking the status of the egg development depending on how often they check. Some farmers check as little as 2 times, other check as often as daily until egg hatches. From our experiment we found that an egg would take 40 seconds for candling whereas Hachy reduces the time to 5s. 
+
+In addition, many farmers' market shopper who routinely shop for fresh organic eggs often find it a hassle to pick eggs and candle them one by one.
+
+#### Personas
+##### Cath (Youtube)
+lives in Rural Italy and has raised 23 hens when she started with the raise hens, she had to go through a long journey to understand the egg development. In fact, she created a YouTube channel to teach the egg candling. Hachy Will help people like Cath to save time on candling egg track egg development so that they would not need to manually take an egg out from the nest, adjust angles and go through all the trouble to identify very subtle details on the egg.  
+
+##### Wancai (Youtube Video) 
+Wancai lives in PingTung, Taiwan. He is a organic egg shoper at PingTung’s local farmers market. He has been selecting his eggs for the best quality for
+
+
+### Vision
 The vision of our team is building an autonomous egg incubating tool that allows no human involvement in the incubating, candling and hatching of eggs. Hachy is considered as the first stage that enables autonomous egg development identification and tracking. 
+
+### Mission
+Therefore, Hachy aims to:
+•	reduce the skills requirement for consumers to shop egg by providing a easy way to identify the development status of the egg.
+•	Reduce the time for homestead farmers who raise egg themselves. 
+By: 
+•	Use Image Recognition Service provided by Azure to determine the development of an egg
+•	Use Web & Mobile service to store data on the cloud such that the egg stats is readily avaliable whenever the user need them.
+
+### 
+
+
+
 
 ### Target Audience
 ### Business Plan
@@ -104,3 +131,4 @@ Copyright (c) 2016 Eugene Wang [The MIT License (MIT)](LICENSE)
 [userImage]:screenshots/banner.png
 [bananaAnalyize]: https://www.ncbi.nlm.nih.gov/pubmed/25745200
 [cucumberSorter]: https://persol-tech-s.co.jp/i-engineer/product/cucumber
+[usaeggproduction]: https://www.statista.com/statistics/196096/total-egg-production-in-the-us-since-2000/
