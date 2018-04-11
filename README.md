@@ -113,14 +113,14 @@ As the phone is being mounted on the cardboard, it is a little hard to track egg
 ### How it Works
 As you have learned previously, Hachy is composed of 6 parts: Hachy Box, App, WebClient, Server, Database, and CustomVision.ai
 
-|  Component  |   Function	|
-|:------------:|:--------------------------------:|
-|**Hachy Box**  |built with Cardbox host the egg and mount the Phone  | 
-|**Android App**|built in Kotlin-Android, the app takes pictures of egg and upload them to server as analysis request. It also display a catalogue of eggs retrieved from the server|
-|**Web Client** |built in Angular2, stored on github, deployed to Azure through github continuous intergration, display egg status on web|
-|**Server**     |built in NodeJs as a that recieves the request from app/web client process request: send to azure image for analysis or pull catalogue, then return the data to the app/web client.|
-|**Database**   |powered by Firebase to store logs and photos, cuse rest contracts to establish databse connection|
-|**CustomVision.ai**|the core engine of the app powered by Azure, CustomeVision.ai is trained using images of different stages of egg development and produce analysis result based on images|
+|  Component   |   function	|building block|
+|:------------:|:--------------------------------:|------------:|
+|**Hachy Box**  |host the egg and mount the Phone  | Cardbox|
+|**Android App**|takes pictures of egg and upload picture as request and display a catalogue of eggs retrieved | Kotlin, Android |
+|**Web Client** |display egg status on web|Angular2, github continous integration|
+|**Server**     |recieves the request from app/web client process request: send to azure image for analysis or pull catalogue, then return the data to the app/web client.|NodeJs|
+|**Database**   |store logs and photos, cuse rest contracts to establish databse connection| Firebase, RestApi|
+|**CustomVision.ai**|the core engine of the app trained using images of different stages of egg development and produce analysis result | Azure CustomVision |
 
 ### Azure Usage
 The technology used here are Azure Web/Mobile Service and Custom Vision. Web/mobile service is used to host an angular/node app which host the web client that display egg catalogue, and handle request being sent from the mobile. The custom view service is used to train image recognition logistics with given datasets on egg development on 3 stages: early, middle, mature.
