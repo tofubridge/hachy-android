@@ -112,7 +112,7 @@ As the phone is being mounted on the cardboard, it is a little hard to track egg
 
 ### How it Works
 As you have learned previously, Hachy is composed of 6 parts: Hachy Box, App, WebClient, Server, Database, and CustomVision.ai
-  
+   Component  |   Function
 :------------:|:--------------------------------:|
 **Hachy Box**  |built with Cardbox host the egg and mount the Phone  | 
 **Android App**|built in Kotlin-Android, the app takes pictures of egg and upload them to server as analysis request. It also display a catalogue of eggs retrieved from the server.
