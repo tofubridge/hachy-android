@@ -112,23 +112,14 @@ As the phone is being mounted on the cardboard, it is a little hard to track egg
 
 ### How it Works
 As you have learned previously, Hachy is composed of 6 parts: Hachy Box, App, WebClient, Server, Database, and CustomVision.ai
-
- Sign in      |  Egg Catalogue                   |   
+  
 :------------:|:--------------------------------:|
-**HachyBox**  |host the egg and mount the Phone  | 
-**App** |built in Kotlin-Android, is what the user uses to take picture of egg or upload picture of egg that is sent as request to the server as request for analysis. It also produce a catalogue of eggs to display the users from the history data recieved from the server.
-**HachyBox** is the cardbox that is used to host the egg and mount the Phone. 
-
-**App**, currently built in Kotlin-Android, is what the user uses to take picture of egg or upload picture of egg that is sent as request to the server as request for analysis. It also produce a catalogue of eggs to display the users from the history data recieved from the server.
-
-**Web Client**, built in Angular2, stored on github, deployed to Azure through github continuous intergration, deliever data to and from user the same way as the mobile app does on web.
-
-**Server** is built in NodeJs as a that recieves the request from app/web client process request: send to azure image for analysis or pull catalogue, then return the data to the app/web client.
-
-**Database** is currently powered by Firebase to store logs and photos, connection to the database are based on rest contracts so that it could be swapped for any other database as it deem suitable.
-
-**CustomVision.ai** powered by Azure is the core engine of this app, it is trained using images of different stages of egg development. CustomVision recieves requests and images and analyze egg stages and send back to the server
-
+**Hachy Box**  |built with Cardbox host the egg and mount the Phone  | 
+**Android App**|built in Kotlin-Android, the app takes pictures of egg and upload them to server as analysis request. It also display a catalogue of eggs retrieved from the server.
+**Web Client** |built in Angular2, stored on github, deployed to Azure through github continuous intergration, display egg status on web
+**Server**     |built in NodeJs as a that recieves the request from app/web client process request: send to azure image for analysis or pull catalogue, then return the data to the app/web client.
+**Database**   |powered by Firebase to store logs and photos, cuse rest contracts to establish databse connection
+**CustomVision.ai**|the core engine of the app powered by Azure, CustomeVision.ai is trained using images of different stages of egg development and produce analysis result based on images
 
 ### Azure Usage
 The technology used here are Azure Web/Mobile Service and Custom Vision. Web/mobile service is used to host an angular/node app which host the web client that display egg catalogue, and handle request being sent from the mobile. The custom view service is used to train image recognition logistics with given datasets on egg development on 3 stages: early, middle, mature.
