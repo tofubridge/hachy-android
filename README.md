@@ -116,7 +116,8 @@ As you have learned previously, Hachy is composed of 6 parts: Hachy Box, App, We
 |  Component   |   function	|building block|
 |------------:|:--------------------------------|:------------|
 |**Hachy Box**  |host the egg and mount the Phone  | Cardbox|
-|**Android App**|takes pictures of egg and upload picture as request and display a catalogue of eggs retrieved | Kotlin, Android |
+|**Android App**|takes pictures of egg and upload picture as request 
+display a catalogue of eggs retrieved | Kotlin, Android |
 |**Web Client** |display egg status on web|Angular2, github continous integration|
 |**Server**     |recieves the request from app/web client process request: send to azure image for analysis or pull catalogue, then return the data to the app/web client.|NodeJs|
 |**Database**   |store logs and photos, cuse rest contracts to establish databse connection| Firebase, RestApi|
