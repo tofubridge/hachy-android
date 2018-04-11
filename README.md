@@ -85,7 +85,6 @@ Finished setup looks like this:
 
 ### Android App Demo
 
-[![screenshot][vid-appdemo]][vid-hachy]
 [![IMG](screenshots/hachydemo.jpg)](https://www.youtube.com/watch?v=y0aG22pkg6I)
 
 ### Procedure
